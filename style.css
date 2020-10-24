@@ -1,0 +1,358 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+#fondo-producto{
+  background: #f1f1f1;
+}
+
+#fondo-producto > div > div > div:nth-child(2) > a:nth-child(2){
+  background-color: #fcee50 !important;
+  border-color: #f7e740 !important;
+}
+
+#fondo-producto > div > div > div:nth-child(2) > a.btn.btn-primary.mb-3.mr-1{
+  background-color: #fcee50 !important;
+  border-color: #f7e740 !important;
+}
+
+#fondo-producto > div > div > div:nth-child(1) > h3{
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand img{
+  width: 130px;
+  height: auto;
+}
+
+#navbarSupportedContent > form > button{
+  color: #fcee50;
+  border-color: #fcee50;
+}
+
+#navbarSupportedContent > form > button:hover{
+  background: #fcee50;
+  color: #fff;
+}
+
+body > header > nav > button{
+  border-color: #fcee50 !important;
+  color: #fcee50 !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 473px;
+}
+
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+
+.gallery-section{
+  width: 100%;
+  padding: 60px 0;
+  background: #f1f1f1;
+}
+
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.gallery-section h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.gallery-section p{
+  text-align: center;
+  font-size: 17px;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.border{
+  width: 180px;
+  height: 4px;
+  background: #fcee50;
+  margin: 30px auto;
+}
+
+.gallery-section .gallery{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery-section .image{
+  flex: 15%;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-section .image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.gallery-section .image:hover img{
+  transform: scale(1.4);
+}
+
+.gallery-section .image .categoria-nombre{
+  text-align: center;
+  font-size: 16px;
+  padding: 7px 1px;
+  position: absolute;
+  width: 80%;
+  z-index: 1;
+  font-family: 'Bebas Neue', cursive;
+  bottom: 0px;
+  background: #fcee50;
+  color: #181818;
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 3px 0px #fcee50;
+  border-radius: 15px;
+}
+
+#carouselExampleIndicators2 > div > div:nth-child(2) > div > div > div{
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.075) !important;
+}
+
+#carouselExampleIndicators2 > div > div.carousel-item.active > div > div > div{
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.075) !important;
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2 > div > div > div{
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.075) !important;
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+.container-mapa{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f1f1f1;
+  padding-bottom: 50px;
+}
+
+.container-mapa .mapa-titulo{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  align-items: center;
+  flex-direction: column;
+  background: #fcee50;
+  height: 352px;
+  color: #181818;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.container-mapa .mapa-titulo h4{
+  text-align: center;
+}
+
+.container-mapa .mapa{
+  width: 30%;
+  border: 2px solid #fcee50;
+}
+
+body > footer > div.container > div.row.pb-3 > div > div{
+  text-align: center;
+}
+
+body > footer > div.container > div.row.pb-3 > div > div > a{
+  color: #fcee50;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body > footer > div.container > div.row.text-center.d-flex.justify-content-center.pt-5.mb-3 > div > h6 > a{
+  color: #fcee50;
+}
+
+body > footer > div.container > div.row.d-flex.text-center.justify-content-center.mb-md-0.mb-4 > div > p{
+  font-family: 'Lato', sans-serif;
+}
+
+body > footer > div.footer-copyright.text-center.py-3 > a{
+  color: #fcee50;
+}
+
+body > footer > div.footer-copyright.text-center.py-3{
+  background: #fff;
+  color: #fcee50;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body > footer > div.footer-copyright.text-center.py-3 > a{
+  color: #fcee50;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width:1199px){
+
+  #fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button{
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (max-width:960px) {
+  .gallery-section .image{
+    flex: 45%;
+  }
+  .container-mapa{
+    flex-direction: column;
+  }
+  .container-mapa .mapa-titulo{
+    width: 100%;
+  }
+  .container-mapa .mapa{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .gallery-section .image{
+    flex: 50%;
+  }
+  .container-mapa{
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .gallery-section .image{
+    flex: 50%;
+  }
+}
+
+#fondo-producto > div > div > div{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+#carouselExampleControls > div > div > img{
+  max-height: 270px;
+}
+
+#carouselExampleControls2 > div > div > img{
+  max-height: 270px;
+}
+
+#carouselExampleControls3 > div > div > img{
+  max-height: 270px;
+}
+
+#carouselExampleControls4 > div > div > img{
+  max-height: 270px;
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(5){
+  background: #3b5998 !important;
+  transition: 0.3s;
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(5):hover{
+  background: #143272 !important; 
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(4){
+  background: #C13584 !important;
+  transition: 0.3s;
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(4):hover{
+  background: #a73073 !important;
+}
+
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button
+{
+  border: none;
+}
+
+#fondo-producto > div > div > div.col-12 > h3{
+  background: #fcee50;
+  color: #181818;
+  letter-spacing: 2px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.075);
+  border-radius: 15px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 7px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+#carouselExampleControls4 > ol > li{
+  border-radius: 100%;
+  width: 7px;
+  height: 7px;
+}
+
+#carouselExampleControls3 > ol > li{
+  border-radius: 100%;
+  width: 7px;
+  height: 7px;
+}
+
+#carouselExampleControls2 > ol > li{
+  border-radius: 100%;
+  width: 7px;
+  height: 7px;
+}
+
+#carouselExampleControls > ol > li{
+  border-radius: 100%;
+  width: 7px;
+  height: 7px;
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body{
+  min-height: 250px !important;
+}
+
+body > footer > div.footer-copyright.text-center.py-3{
+  background: #181818 !important
+}
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > h5{
+  color: #181818;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  font-family: 'Bebas Neue', cursive;
+  display: inline-block;
+}
