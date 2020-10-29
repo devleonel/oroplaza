@@ -23,13 +23,47 @@
   font-family: 'Lato', sans-serif;
 }
 
+#dropdownMenuButton{
+  background-color: #fcee50 !important;
+  border-color: #f7e740 !important;
+}
+
+#dropdownMenuButton:hover{
+  background: #fcee50;
+  color: #fff;
+}
+
+#navbarSupportedContent > div > div > a:hover{
+  background: #fcee50;
+  color: #fff;
+}
+
+#navbarSupportedContent > div > div{
+  border: 2px solid #e8d71c;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+  box-shadow: none !important;
+}
+
 .navbar-brand img{
   width: 130px;
   height: auto;
 }
 
+#fondo-producto > div > div > div.col-md-12.mt-2.text-center > a{
+  color: #e8d71c;
+  border-color: #fcee50;
+  background-color: white;
+  font-size: 20px;
+}
+
+#fondo-producto > div > div > div.col-md-12.mt-2.text-center > a:hover{
+  background: #fcee50;
+  color: #fff;
+}
+
 #navbarSupportedContent > form > button{
-  color: #fcee50;
+  color: #e8d71c;
   border-color: #fcee50;
 }
 
@@ -101,7 +135,7 @@ body > header > nav > button{
 }
 
 .gallery-section .image{
-  flex: 15%;
+  flex: 25%;
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
@@ -281,24 +315,19 @@ body > footer > div.footer-copyright.text-center.py-3 > a{
   max-height: 270px;
 }
 
-#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(5){
+
+
+
+
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > a:nth-child(4){
   background: #3b5998 !important;
   transition: 0.3s;
+  border: none !important
 }
 
-#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(5):hover{
+#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > a:nth-child(4):hover{
   background: #143272 !important; 
 }
-
-#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(4){
-  background: #C13584 !important;
-  transition: 0.3s;
-}
-
-#fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button:nth-child(4):hover{
-  background: #a73073 !important;
-}
-
 
 #fondo-producto > div > div > div.row.row-cols-1.row-cols-md-2.justify-content-center > div > div > div.card-body > button
 {
@@ -355,4 +384,8 @@ body > footer > div.footer-copyright.text-center.py-3{
   border-radius: 5px;
   font-family: 'Bebas Neue', cursive;
   display: inline-block;
+}
+
+#carouselExampleControls3 > div > div.carousel-item.active > img{
+  background-size: cover !important;
 }

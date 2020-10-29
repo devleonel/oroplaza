@@ -17,6 +17,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/e74082ca10.js" crossorigin="anonymous"></script>
+    <style>
+      /* Modifico el estilo relacionado con el aspecto del botón con el foco activo */
+      .btn:focus {
+          outline: none;
+          box-shadow: none;
+      }
+      </style>
 
   </head>
   <body>
@@ -36,15 +43,19 @@
               <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">¿Quienes Somos?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#somos">¿Quienes Somos?</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Alquila tu tienda con nosotros</button>
-          </form>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Alquila tu tienda con nosotros.
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="tel:013241325">Contacto</a>
+              <a class="dropdown-item" href="mailto:contabilidad_golden@hotmail.com">Correo</a>
+              <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=995934336">WhatsApp</a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -93,19 +104,9 @@
             <img src="img/vestimenta-seguridad.jpg" alt="">
           </a>
 
-          <a href="tiendas/lenceria/tienda.html" class="image">
-            <h3 class="categoria-nombre">Lenceria</h3>
-            <img src="img/lenceria.jpg" alt="">
-          </a>
-
           <a href="tiendas/vestidos/tienda.html" class="image">
             <h3 class="categoria-nombre">Vestidos</h3>
             <img src="img/vestidos.jpg" alt="">
-          </a>
-
-          <a href="tiendas/zapatos/tienda.html" class="image">
-            <h3 class="categoria-nombre">Zapatos</h3>
-            <img src="img/zapatos.jpg" alt="">
           </a>
 
           <a href="tiendas/ropa-bebe/tienda.html" class="image">
@@ -256,19 +257,7 @@
 
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Acerca de...</a>
-        </h6>
-      </div>
-
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Ayuda</a>
-        </h6>
-      </div>
-
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Contacto</a>
+          <a href="https://api.whatsapp.com/send?phone=995934336">Contacto</a>
         </h6>
       </div>
 
@@ -278,12 +267,8 @@
 
     <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
-      <div class="col-md-8 col-12 mt-5">
-        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo.
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+      <div class="col-md-8 col-12 mt-5 mb-3" id="somos">
+        <p style="line-height: 1.7rem; font-size: 18px;">Somos una galeria con la ropa mas hermosa que puedas ver, espero que pronto nos visites!</p>
       </div>
 
     </div>
